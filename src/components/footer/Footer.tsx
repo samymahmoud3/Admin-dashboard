@@ -1,7 +1,11 @@
+import './footer.scss';
 
 const Footer = () => {
   return (
-    <div>Footer</div>
+    <div className='footer'>
+      <span>lamadmin</span>
+      <span>&copy; Admin Dashboard</span>
+    </div>
   )
 }
 
