@@ -8,6 +8,8 @@ import Menu from './components/menu/Menu';
 import { createBrowserRouter, RouterProvider, Outlet } from "react-router-dom";
 
 import './styles/global.scss'
+import User from './pages/user/User';
+import Product from './pages/product/Product';
 
 function App() {
 
@@ -44,6 +46,14 @@ const router = createBrowserRouter([
       {
         path: '/products',
         element: <Products />
+      },
+      {
+        path: '/users/:id',
+        element: <User />
+      },
+      {
+        path: '/products/:id',
+        element: <Product />
       },
     ]
   },
