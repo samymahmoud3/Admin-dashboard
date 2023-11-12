@@ -1,41 +1,12 @@
-// .single {
-
-//   .view {
-
-//     .info {
-
-//       .topInfo{
-
-//         img {}
-
-//         h1 {}
-
-//         button {}
-//       }
-      
-//       .details {
-
-//         .item {
-
-//           .itemTitle {}
-
-//           .itemValue {}
-//         }
-//       }
-//     }
-
-//     .chart {
-//       width: 50%;
-//       height: 300px;
-//     }
-//   }
-
-//   .activities {}
-// }
-
+@import "../../styles/responsive.scss";
 
 .single {
   display: flex;
+
+  @include xl {
+    flex-direction: column;
+    gap: 50px; 
+  }
 
   .view {
     flex: 1;
@@ -88,6 +59,10 @@
       margin-top: 50px;
       width: 80%;
       height: 400px;
+
+      @include md {
+        display: none;
+      }
     }
   }
   .activities {
@@ -123,6 +98,10 @@
           background-color: #f45b6810;
           display: flex;
           flex-direction: column;
+
+          @include md {
+            min-width: 250px;
+          }
 
           p{
             margin-bottom: 5px;

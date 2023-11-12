@@ -564,7 +564,7 @@ export const singleUser = {
   img: "https://images.pexels.com/photos/17397364/pexels-photo-17397364.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load",
   info: {
     username: "Johndoe99",
-    fullname: "John Doe",
+    fullname: "John Dee",
     email: "johndoe@gmail.com",
     phone: "123 456 789",
     status: "verified",
@@ -631,7 +631,7 @@ export const singleUser = {
     },
     {
       text: "John Doe added 1 items into their wishlist",
-      time: "1 month ago",
+      time: "3 month ago",
     },
     {
       text: "John Doe reviewed a product",
